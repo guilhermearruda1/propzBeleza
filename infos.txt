@@ -1,0 +1,3 @@
+Funcionamento dos botoes do carousel: index.js
+JSON e dados para HTML: dados.js -> json para objeto JS que exibe via innerHTML
+

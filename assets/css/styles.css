@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --corPriLogo: #FD7205;
+    --corSecLogo: #339FB0;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: var(--corPriLogo);
+}
+
+.logo {
+    display: block;
+    width: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: #555353;
+}
+
+.container {
+    position: relative;
+}
+
+/* Alterado via JS */
+.mySlides {
+    display: none;
+}
+
+.prodGoodImg {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.prodJohsonImg {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.descProd {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.descProdDw {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.qtdProd {
+    text-align: right;
+    font-size: 18px;
+}
+
+.linha {
+    border-top: 2px solid black;
+}
+
+.cartaoImg {
+    width: 12%;
+    float: right;
+    padding-right: 15px;
+}
+
+.preco {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.precoAlt {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.juros {
+    font-size: 18px;
+}
+
+.valorVista {
+    font-size: 18px;
+    float: right;
+    font-weight: bold;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* botao de proximo e anterior */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: var(--corPriLogo); 
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: var(--corSecLogo); 
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.infosLojas {
+    box-sizing: border-box;
+    border: var(--corPriLogo) 2px solid;
+    border-radius: 10px;
+}
+
+.tituloLoja {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.linhaLoja {
+    border-top: 1px solid var(--corPriLogo);
+    width: 50%;
+}
+
+.cidades {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.logoFooter {
+    display: block;
+    width: 35%;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerTexto {
+    text-align: center;
+    font-size: 13px;
+}
+
+@media (min-width:1025px) { 
+    .prodGoodImg:hover {
+        transform: scale(1.2); 
+    }
+
+    .prodJohsonImg:hover {
+        transform: scale(1.2); 
+    }
+
+    .descProd {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 45px;
+    }
+
+    .descProdDw {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 45px;
+    }
+    
+    .qtdProd {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .linha {
+        border-top: 2px solid black;
+        width: 55%;
+    }
+
+    .preco {
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    
+    .precoAlt {
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .juros {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .valorVista {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+
+    .cartaoImg {
+        display: block;
+        margin-top: 19px;
+        margin-bottom: 0px; 
+        width: 5%;
+    }
+    
+
+    .infosLojas {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 0px; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+        box-sizing: border-box;
+        border: var(--corPriLogo) 1px solid;
+    }
+
+    .linhaLoja {
+        border-top: 1px solid var(--corPriLogo);
+        width: 25%;
+    }
+
+    .logoFooter {
+        display: block;
+        width: 15%;
+        margin-top: 40px;
+        margin-bottom: 0px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerTexto {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+
+}
